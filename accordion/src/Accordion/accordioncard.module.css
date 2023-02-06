@@ -1,0 +1,19 @@
+svg{
+    width: 24px;
+    height: 24px;
+   stroke: blue;
+  
+}
+.container{
+    display: grid;
+   grid-template-columns: auto auto ;
+   border: 1px solid black;
+   justify-content: space-between;
+   padding: 10px;
+}
+.question{
+   
+    color: rgb(10, 10, 10);
+    width: auto;
+ 
+}
