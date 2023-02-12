@@ -2,7 +2,9 @@ svg{
     width: 24px;
     height: 24px;
    stroke: blue;
-  
+ margin-left: 20px;
+  cursor: pointer;
+ 
 }
 .container{
     display: grid;
