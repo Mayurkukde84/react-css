@@ -1,17 +1,52 @@
 .container{
    color: aliceblue;
    padding: 1rem;
+  
 }
 
 .nav-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .nav-links{
-    width: 40%;
+    width: auto;
     
 }
 .nav-links a{
 margin: 0 1rem;
+}
+.nav-links a:hover{
+    color: chartreuse;
+}
+.burger-container{
+    cursor: pointer;
+}
+.nav-links-burger{
+    display: none;
+}
+@media screen and (max-width:900px){
+    .nav-links{
+        display: none;
+    }
+    .nav-links-burger{
+        display: block;
+    }
+    .nav-links-burger ul{
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .burger-container{
+        display: none;
+        
+    }
+    
+   
 }
