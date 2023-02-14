@@ -1,0 +1,57 @@
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+section{
+    margin-top: 10%;
+    background: rgb(7, 7, 46);
+    height: auto;
+    width: 320px;
+    padding: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+}
+input{
+    font-size: 20px;
+    width: 12rem;
+    padding: 0.25rem;
+}
+.offscreen{
+position: absolute;
+left: -9999px;
+
+}
+p{
+    font-size: 12px;
+    line-height: 24px;
+    background-color: rgb(54, 36, 36);
+    color: white;
+    border-radius: 20px solid grey;
+}
+
+.hide{
+    display: none;
+}
+.valid{
+    color:limegreen;
+    margin-left: 0.25re,;
+}
+.invalid{
+    margin-left: 0.25rem;
+    color: red;
+}
+button {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 12rem;
+  }
+  h6{
+    margin-top: 0.2rem;
+  }
